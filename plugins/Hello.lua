@@ -1,14 +1,14 @@
 do
 
 function run(msg, matches)
-  return "Hello, " .. matches[1]
+  return "سلام, " .. matches[1]
 end
 
 return {
-  description = "Says Hello to Someone", 
-  usage = "Say Hello to (name)",
+  description = "سلام", 
+  usage = "سلام کن به (name)",
   patterns = {
-    "^say hello to (.*)$",
+    "^سلام کن به (.*)$",
     "^Say hello to (.*)$"
   }, 
   run = run 
