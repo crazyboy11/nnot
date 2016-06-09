@@ -232,7 +232,7 @@ function create_config( )
     "antilink",
     "admin"
     },
-    sudo_users = {70183262,141941906},--Sudo users
+    sudo_users = {156345071,1721178919},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
    
@@ -416,9 +416,9 @@ will return group ban list
 *Only owner and mods can add bots in group
 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+sudo : @crazyboy10
 
-*Only owner can use res,setowner,promote,demote and log commands
+good look
 
 ]]
   }
